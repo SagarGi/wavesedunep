@@ -2,24 +2,45 @@
 
 .logo
 {
-    width: 80px;
+    width: 215px;
     height: 80px;
+}
+
+.main
+{
+    width: 100%;
+    min-height: 100vh;
 }
 
 /* nav items */
 
 .nav-item
 {
-    padding: 10px 15px;
-    
+    padding: 0px 30px;
 }
+
+/* paragraph */
 
 p{
     font-size: 17px;
+    font-family: 'Slabo 27px', serif;
 }
 
 p:hover
 { 
     color: red;
+    font-weight: 600;
+    
+
 }
 
+/* ul list */
+ul{
+    margin-left:  auto;
+}
+
+/* carosuel */
+.carousel-inner img
+{
+    
+}
