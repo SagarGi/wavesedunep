@@ -96,20 +96,52 @@ class App extends Component
 
             {/* our services section */}
 
-            <div className = "container">
+            <div className = "container text-center">
 
             <p className = "heading-para">Our Services</p>
             <hr></hr>
 
+            <div className = "container">
               <div className = "row">
-
-                <div className = "col-md-4"> 
-                    
+                <div className = "col-lg-4 text-center bg-dark"> 
+                    <i class='fas fa-user-graduate'></i>
+                    <h2>Study Abroad</h2>
                 </div>
 
-              </div>
+                <div className = "col-lg-4 text-center bg-danger"> 
+                    <a><i class='fas fa-edit'></i></a>
+                    <h2>IELTS Preparation</h2>
+                </div>
+
+                <div className = "col-lg-4 text-center bg-success"> 
+                    <i class='fas fa-chalkboard-teacher'></i>
+                    <h2>Japanese Language</h2>
+                </div>
+
+                </div>
+            </div>
+
+             
 
             </div>
+
+            {/* free counselling */}
+
+            <div className = "container image-container">
+
+              <a href = "www.google.com">
+
+                <div className = "hover-image">
+                <img className = "free-counselling" src = { require('./images/counselling.jpg')}></img>
+                <div class="centered text-dark"><h1>Register Here <br></br> <h3>For Free Counselling</h3></h1></div>
+                </div>
+              </a>
+              <div class="centered"><h1>Register Here <br></br> <h3>For Free Counselling</h3></h1></div>
+              
+
+            </div>
+
+            
 
         </div>
       
