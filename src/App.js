@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Navbar.css'
 import './aboutus.css'
 import Footer from './footer.js'
+import Ourteam from './ourteam.js'
 
 class App extends Component
 {
@@ -80,7 +81,7 @@ class App extends Component
 
             <div className = "container mt-4">
 
-              <p className = "heading-para">Waves Education</p>
+              <p className = "heading-para">WAVES EDUCATION</p>
               <hr></hr>
 
               <p className = "about-para">Kangaroo Education Foundation (KEF) is an innovative and specialist educational<br></br>
@@ -97,10 +98,10 @@ class App extends Component
 
             <div className = "container text-center">
 
-            <p className = "heading-para">Our Services</p>
+            <p className = "heading-para">OUR SERVICES</p>
             <hr></hr>
 
-            <div className = "container">
+            <div className = "container mt-5">
               <div className = "row">
                 <div className = "col-lg-4 text-center bg-dark"> 
                     <i class='fas fa-user-graduate'></i>
@@ -128,7 +129,7 @@ class App extends Component
 
             <div className = "container image-container">
 
-              <a href = "www.google.com">
+              <a href = "">
 
                 <div className = "hover-image">
                 <img className = "free-counselling" src = { require('./images/counselling.jpg')}></img>
@@ -140,11 +141,15 @@ class App extends Component
 
             </div>
 
-            {/* second last footer */}
-            <div className = "second-footer">
-              
-            </div>
+            {/* our team */}
 
+            <Ourteam />
+
+            <div className = "second-footer">
+
+              
+
+            </div>
         <Footer />
       
       </div>
