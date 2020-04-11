@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Navbar.css'
 import './aboutus.css'
+import Footer from './footer.js'
 
 class App extends Component
 {
@@ -8,8 +9,6 @@ class App extends Component
   {
     return(
       <div className = "main">
-
-        <div className = "wrapper">
           
         <nav className = "navbar navbar-expand-lg navbar-light">
 
@@ -141,9 +140,12 @@ class App extends Component
 
             </div>
 
-            
+            {/* second last footer */}
+            <div className = "second-footer">
+              
+            </div>
 
-        </div>
+        <Footer />
       
       </div>
     )

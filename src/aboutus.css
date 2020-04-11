@@ -70,4 +70,14 @@ h2{
     font-family: 'Slabo 27px', serif;
     color: white;
 
-  }
+
+
+}
+
+.second-footer
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+}

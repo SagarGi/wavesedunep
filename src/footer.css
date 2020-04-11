@@ -1,0 +1,13 @@
+.footer
+{
+    width: 100vh;
+    height: 5vh;
+    padding-top: 15px;
+}
+.main-footer
+{
+    background-color:black;
+    position: relative;
+    bottom: 0;
+}
+
