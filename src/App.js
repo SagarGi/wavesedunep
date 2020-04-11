@@ -104,17 +104,17 @@ class App extends Component
             <div className = "container mt-5">
               <div className = "row">
                 <div className = "col-lg-4 text-center bg-dark"> 
-                    <i class='fas fa-user-graduate'></i>
+                    <i class='services fas fa-user-graduate'></i>
                     <h2>Study Abroad</h2>
                 </div>
 
                 <div className = "col-lg-4 text-center bg-danger"> 
-                    <a><i class='fas fa-edit'></i></a>
+                    <a><i class='services fas fa-edit'></i></a>
                     <h2>IELTS Preparation</h2>
                 </div>
 
                 <div className = "col-lg-4 text-center bg-success"> 
-                    <i class='fas fa-chalkboard-teacher'></i>
+                    <i class='services fas fa-chalkboard-teacher'></i>
                     <h2>Japanese Language</h2>
                 </div>
 
@@ -146,6 +146,47 @@ class App extends Component
             <Ourteam />
 
             <div className = "second-footer">
+
+
+              <div className = "container">
+                <div className = "row">
+
+                   <div className = "col-lg-4 text-white text-left">
+
+                    <h4 className = "pt-5 pb-3">Consultancy:</h4>
+                    <ul className = "list-unstyled">
+                      <li>About Us</li>
+                      <li>Counseling</li>
+                      <li>Our Services</li>
+                      <li>Home</li>
+                    </ul>
+
+                  </div>
+
+                  <div className = "col-lg-4 text-white text-left">
+
+                    <h4 className = "pt-5 pb-3">Contact:</h4>
+                    <ul className = "list-unstyled">
+                      <li><i className='fas fa-phone-alt'>  061-533352</i></li>
+                      <li><i className='fas fa-phone-alt'/> 9829107652</li>
+                      <li><i className='fas fa-phone-alt'/> 9843268743</li>
+                      <li><i class='fas fa-envelope'></i>  sagargurung5005@gmail.com</li>
+                    </ul>
+
+                  </div>
+
+                  <div className = "col-lg-4 text-white text-center">
+
+                    <h4 className = "pt-4 pb-3">Follow us:</h4>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+
+                  </div>
+
+                </div>
+               
+
+              </div>
 
               
 
