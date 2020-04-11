@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css'
+import './Navbar.css'
+import './aboutus.css'
 
 class App extends Component
 {
@@ -10,51 +11,52 @@ class App extends Component
 
         <div className = "wrapper">
           
-           <nav className = "navbar navbar-expand-lg navbar-light  static-top">
+        <nav className = "navbar navbar-expand-lg navbar-light">
 
-            <div className = "container">
+          <div className = "container">
 
-              <a href = "" className = "navbar-brand"><img src = {require('./images/waveslogo.png')} alt = "logo" className = "logo" /></a>
-                {/* button when responsive */}
-              <button className = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#collapsenavbar">
-                <span className =  "navbar-toggler-icon"></span>
-              </button>
+          <a href = "" className = "navbar-brand"><img src = {require('./images/waveslogo.png')} alt = "logo" className = "logo" /></a>
+              {/* button when responsive */}
+          <button className = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#collapsenavbar">
+              <span className =  "navbar-toggler-icon"></span>
+          </button>
 
-              {/* menus */}
+          {/* menus */}
 
-              <div className = "collapse navbar-collapse text-center" id = "collapsenavbar">
+          <div className = "collapse navbar-collapse text-center" id = "collapsenavbar">
 
-                <ul className = "navbar-nav">
-                    <li className = "nav-item">
-                        <a href = "" className = "nav-link text-body"><p>Home</p></a>
-                    </li>
-                    <li className = "nav-item">
-                        <a href = "" className = "nav-link text-body"><p>Free Counseling</p></a>
-                    </li>
-                    <li className = "nav-item">
-                        <a href = "" className = "nav-link text-body"><p>Services</p></a>
-                    </li>
-                    <li className = "nav-item">
-                        <a href = "" className = "nav-link text-body"><p>About Us</p></a>
-                    </li>
-                    <li className = "nav-item">
-                        <a href = "" className = "nav-link text-body"><p>Contact</p></a>
-                    </li>
-                </ul>
+              <ul className = "navbar-nav">
+                  <li className = "nav-item">
+                      <a href = "" className = "nav-link text-body"><p className = "nav-head">Home</p></a>
+                  </li>
+                  <li className = "nav-item">
+                      <a href = "" className = "nav-link text-body"><p className = "nav-head">Free Counseling</p></a>
+                  </li>
+                  <li className = "nav-item">
+                      <a href = "" className = "nav-link text-body"><p className = "nav-head">Services</p></a>
+                  </li>
+                  <li className = "nav-item">
+                      <a href = "" className = "nav-link text-body"><p className = "nav-head">About Us</p></a>
+                  </li>
+                  <li className = "nav-item">
+                      <a href = "" className = "nav-link text-body"><p className = "nav-head">Contact</p></a>
+                  </li>
+              </ul>
 
-              </div>
+          </div>
 
-            </div>
+          </div>
 
-           </nav>
-           
+          </nav>
+
+           {/* carousel section */}
            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               </ol>
-              <div className="carousel-inner" style = {{height: "60vh"}}>
+              <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img className="img-fluid d-block w-100" src = {require('./images/studyuk.jpg')}  alt="First slide" />
                 </div>
@@ -73,6 +75,14 @@ class App extends Component
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
               </a>
+            </div>
+
+            {/* about wave education */}
+
+            <div className = "container mt-4">
+
+              <p className = "heading-para">Waves Education</p>
+
             </div>
 
         </div>

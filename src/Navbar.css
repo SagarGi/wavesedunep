@@ -5,13 +5,6 @@
     width: 215px;
     height: 80px;
 }
-
-.main
-{
-    width: 100%;
-    min-height: 100vh;
-}
-
 /* nav items */
 
 .nav-item
@@ -19,14 +12,16 @@
     padding: 0px 30px;
 }
 
+
+
 /* paragraph */
 
-p{
+.nav-head{
     font-size: 17px;
     font-family: 'Slabo 27px', serif;
 }
 
-p:hover
+.nav-head:hover
 { 
     color: red;
     font-weight: 600;
@@ -39,8 +34,15 @@ ul{
     margin-left:  auto;
 }
 
-/* carosuel */
-.carousel-inner img
-{
-    
-}
+.carousel-inner {
+    position: relative;
+    /* Removed height here */
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    position: relative;
+    height: 70vhpx;
+    display: none;
+    width: 100%;
+  }
