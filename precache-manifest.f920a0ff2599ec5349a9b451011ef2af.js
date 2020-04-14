@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3226e8d9f49957fee0bd897c8720452d",
+    "revision": "3241101e35ba48f078fad484316ce32b",
     "url": "/wavesedunep/index.html"
   },
   {
-    "revision": "e3f1bd5b6f332951b351",
-    "url": "/wavesedunep/static/css/main.572b5992.chunk.css"
+    "revision": "378099db3d4c87018f22",
+    "url": "/wavesedunep/static/css/main.58fd9dc1.chunk.css"
   },
   {
     "revision": "fdef4c10914f548ea786",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wavesedunep/static/js/2.fe3d8a3d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3f1bd5b6f332951b351",
-    "url": "/wavesedunep/static/js/main.47b202ed.chunk.js"
+    "revision": "378099db3d4c87018f22",
+    "url": "/wavesedunep/static/js/main.71b95170.chunk.js"
   },
   {
     "revision": "dad0c80efa9cc47245ad",
