@@ -12,7 +12,7 @@ const Ourteam = () =>
 
                <div className = "row mt-5">
 
-                   <div className = "col-lg-4 text-center">
+                   <div className = "col-xl-4 col-lg-4 col-md-6  text-center">
 
                        <img className = "ourteam-photo" src = {require('./images/bijay.jpg')} style={{width: "220px"}}></img>
                        <h3>Bijay Nepali</h3>
@@ -20,7 +20,7 @@ const Ourteam = () =>
                        <p>Waves Education Nepal</p>
                    </div>
 
-                    <div className = "col-lg-4 text-center">
+                    <div className = "col-xl-4 col-lg-4 col-md-6 text-center">
 
                        <img className = "ourteam-photo"  src = {require('./images/manzu.jpg')} style={{width: "220px"}}></img>
                        <h3>Manzu Nepali</h3>
@@ -28,7 +28,7 @@ const Ourteam = () =>
                        <p>Waves Education Nepal</p>
                    </div>
 
-                    <div className = "col-lg-4 text-center">
+                    <div className = "col-xl-4 col-lg-4 col-md-12 text-center">
 
                        <img className = "ourteam-photo"  src = {require('./images/mansa.jpg')} style={{width: "220px"}}></img>
                        <h3>Mansa</h3>

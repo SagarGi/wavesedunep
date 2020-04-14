@@ -11,7 +11,7 @@ const Footer = () =>
 
                     <div className = "col-lg-6">
 
-                      <p className = "copy">© 2020 Waves Education Foundation all right reserved.</p>
+                      <p className = "copy">© 2020 Waves Education Nepal all right reserved.</p>
 
                     </div>
 

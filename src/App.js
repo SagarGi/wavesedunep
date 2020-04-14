@@ -133,11 +133,10 @@ class App extends Component
 
                 <div className = "hover-image">
                 <img className = "free-counselling" src = { require('./images/counselling.jpg')}></img>
-                <div class="centered text-dark"><h1>Register Here <br></br> <h3>For Free Counselling</h3></h1></div>
                 </div>
+              <div class="centered text-white"><h1>Click Here<br></br> <h3>Free Counselling</h3></h1></div>
+
               </a>
-              <div class="centered"><h1>Register Here <br></br> <h3>For Free Counselling</h3></h1></div>
-              
 
             </div>
 
@@ -157,11 +156,12 @@ class App extends Component
 
 
               <div className = "container">
-                <div className = "row">
+                <div className = "row pt-5 pb-5">
 
-                   <div className = "col-lg-4 text-white text-left">
+                   <div className = "col-xl-3 col-lg-3 col-md-6 col-sm-6 text-white text-left">
 
-                    <h4 className = "pt-5 pb-3">Consultancy:</h4>
+                    <p style = {{fontSize: "20px"}}>Consultancy:</p>
+                    <hr style = {{border: "0.5px solid white"}}></hr>
                     <ul className = "list-unstyled">
                       <li>About Us</li>
                       <li>Counseling</li>
@@ -171,21 +171,23 @@ class App extends Component
 
                   </div>
 
-                  <div className = "col-lg-4 text-white text-left">
+                  <div className = "col-xl-3 col-lg-3 col-md-6 col-sm-6 text-white text-left">
 
-                    <h4 className = "pt-5 pb-3">Contact:</h4>
+                  <p style = {{fontSize: "20px"}}>Contact us:</p>
+                  <hr style = {{border: "0.5px solid white"}}></hr>
                     <ul className = "list-unstyled">
-                      <li><i className='fas fa-phone-alt'>  061-533352</i></li>
+                      <li><i className='fas fa-phone-alt' /> 061-533352</li>
                       <li><i className='fas fa-phone-alt'/> 9829107652</li>
                       <li><i className='fas fa-phone-alt'/> 9843268743</li>
-                      <li><i class='fas fa-envelope'></i>  sagargurung5005@gmail.com</li>
+                      <li><i class='fas fa-envelope' /> sagargurung5005@gmail.com</li>
                     </ul>
 
                   </div>
 
-                  <div className = "col-lg-4 text-white text-center">
+                  <div className = "col-xl-6 col-lg-6 col-md-12 col-sm-12 text-white text-center">
 
-                    <h4 className = "pt-4 pb-3">Follow us:</h4>
+                  <p style = {{fontSize: "20px"}}>Follow us:</p>
+                  <hr style = {{border: "0.5px solid white"}}></hr>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-instagram"></a>
 
