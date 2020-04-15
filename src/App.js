@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
-import Footer from './footer.js'
-import Ourteam from './ourteam.js'
 import Navbar from './Navbar.js'
-import Carousel from './Carousel.js';
-import About from './About.js'
-import Services from './Services.js'
-import Secondfooter from './Secondfooter.js'
+import {Route, Switch} from 'react-router-dom'
+import Home from './Home.js'
+import FreeCounselling from './FreeCounselling.js'
 
 class App extends Component
 {
+  constructor(props)
+  {
+    super(props)
+  }
+
     render()
     {
         return(
             <div className = "main">
-                
               <Navbar />
-              <Carousel />
-              <About />
-              <Services />
-              <Ourteam />
-              <Secondfooter />
-              <Footer />
-            
+              <Switch>
+              <Route exact path = "/" component = {Home}/>
+              <Route exact path = "/home" component = {Home}/>
+              <Route exact path = "/freecounselling" component = {FreeCounselling}></Route>
+
+              </Switch>
             </div>
           )
     }
