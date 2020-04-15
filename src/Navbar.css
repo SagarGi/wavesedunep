@@ -29,30 +29,7 @@
     
 
 }
-
 /* ul list */
 ul{
     margin-left:  auto;
 }
-
-.carousel-inner {
-    position: relative;
-    /* Removed height here */
-    overflow: hidden;
-  }
-  
-  .carousel-item {
-    position: relative;
-    height: 70vhpx;
-    display: none;
-    width: 100%;
-  }
-
-  .second-footer
-  {
-      margin-top: 50px;
-      width: 100%;
-      background-color: red;
-  }
-
-

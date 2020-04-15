@@ -1,0 +1,13 @@
+
+.carousel-inner {
+    position: relative;
+    /* Removed height here */
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    position: relative;
+    height: 70vhpx;
+    display: none;
+    width: 100%;
+  }
