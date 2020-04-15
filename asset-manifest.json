@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/wavesedunep/static/css/main.58fd9dc1.chunk.css",
-    "main.js": "/wavesedunep/static/js/main.71b95170.chunk.js",
-    "main.js.map": "/wavesedunep/static/js/main.71b95170.chunk.js.map",
+    "main.css": "/wavesedunep/static/css/main.b8bedda9.chunk.css",
+    "main.js": "/wavesedunep/static/js/main.e9ce4e75.chunk.js",
+    "main.js.map": "/wavesedunep/static/js/main.e9ce4e75.chunk.js.map",
     "runtime-main.js": "/wavesedunep/static/js/runtime-main.b80c17ec.js",
     "runtime-main.js.map": "/wavesedunep/static/js/runtime-main.b80c17ec.js.map",
-    "static/js/2.fe3d8a3d.chunk.js": "/wavesedunep/static/js/2.fe3d8a3d.chunk.js",
-    "static/js/2.fe3d8a3d.chunk.js.map": "/wavesedunep/static/js/2.fe3d8a3d.chunk.js.map",
+    "static/js/2.60a59051.chunk.js": "/wavesedunep/static/js/2.60a59051.chunk.js",
+    "static/js/2.60a59051.chunk.js.map": "/wavesedunep/static/js/2.60a59051.chunk.js.map",
     "index.html": "/wavesedunep/index.html",
-    "precache-manifest.f920a0ff2599ec5349a9b451011ef2af.js": "/wavesedunep/precache-manifest.f920a0ff2599ec5349a9b451011ef2af.js",
+    "precache-manifest.aee867b36ae6b6e8caaed699412ee4f6.js": "/wavesedunep/precache-manifest.aee867b36ae6b6e8caaed699412ee4f6.js",
     "service-worker.js": "/wavesedunep/service-worker.js",
-    "static/css/main.58fd9dc1.chunk.css.map": "/wavesedunep/static/css/main.58fd9dc1.chunk.css.map",
-    "static/js/2.fe3d8a3d.chunk.js.LICENSE.txt": "/wavesedunep/static/js/2.fe3d8a3d.chunk.js.LICENSE.txt",
+    "static/css/main.b8bedda9.chunk.css.map": "/wavesedunep/static/css/main.b8bedda9.chunk.css.map",
+    "static/js/2.60a59051.chunk.js.LICENSE.txt": "/wavesedunep/static/js/2.60a59051.chunk.js.LICENSE.txt",
     "static/media/bijay.jpg": "/wavesedunep/static/media/bijay.19f6bcfe.jpg",
     "static/media/counselling.jpg": "/wavesedunep/static/media/counselling.20b8a7a9.jpg",
+    "static/media/freecounselling.jpg": "/wavesedunep/static/media/freecounselling.2d4cc661.jpg",
     "static/media/mansa.jpg": "/wavesedunep/static/media/mansa.d613e669.jpg",
     "static/media/manzu.jpg": "/wavesedunep/static/media/manzu.d975923e.jpg",
     "static/media/studyaus.jpg": "/wavesedunep/static/media/studyaus.1c80d508.jpg",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b80c17ec.js",
-    "static/js/2.fe3d8a3d.chunk.js",
-    "static/css/main.58fd9dc1.chunk.css",
-    "static/js/main.71b95170.chunk.js"
+    "static/js/2.60a59051.chunk.js",
+    "static/css/main.b8bedda9.chunk.css",
+    "static/js/main.e9ce4e75.chunk.js"
   ]
 }
