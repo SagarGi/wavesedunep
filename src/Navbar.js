@@ -6,10 +6,7 @@ class Navbar extends Component
 {
     render()
     {
-        function refreshPage() {
-            window.location.reload(false);
-          } 
-
+        
 
         return(
             <div>

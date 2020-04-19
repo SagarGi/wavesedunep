@@ -45,7 +45,7 @@ class About extends Component
                       <div className = "hover-image">
                       <img className = "free-counselling" src = { require('./images/counselling.jpg')}></img>
                       </div>
-                    <div class="centered text-white"><h1>Click Here<br></br> <h3>Free Counselling</h3></h1></div>
+                    <div class="centered text-white"><p className = "register">Register For Free Counselling!!</p></div>
       
                     </a>
       
