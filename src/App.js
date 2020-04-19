@@ -3,6 +3,7 @@ import Navbar from './Navbar.js'
 import {Route, Switch} from 'react-router-dom'
 import Home from './Home.js'
 import FreeCounselling from './FreeCounselling.js'
+import AboutPage from './AboutPage.js';
 
 class App extends Component
 {
@@ -20,6 +21,7 @@ class App extends Component
               <Route exact path = "/" component = {Home}/>
               <Route exact path = "/home" component = {Home}/>
               <Route exact path = "/freecounselling" component = {FreeCounselling}></Route>
+              <Route exact path = "/about" component = {AboutPage}></Route>
 
               </Switch>
             </div>
