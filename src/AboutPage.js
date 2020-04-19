@@ -11,6 +11,8 @@ class AboutPage extends Component
                <img className = "contactusimage" src = { require('./images/aboutus.jpg')}></img>
                  <div className = "container">
                      <h1 className = "mt-5">About Waves Education Nepal</h1>
+                     <hr></hr>
+              
                 </div>
                 <Secondfooter />
                 <Footer />

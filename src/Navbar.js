@@ -6,6 +6,11 @@ class Navbar extends Component
 {
     render()
     {
+        function refreshPage() {
+            window.location.reload(false);
+          } 
+
+
         return(
             <div>
                 <nav className = "navbar navbar-expand-lg navbar-light">
@@ -24,7 +29,7 @@ class Navbar extends Component
 
                     <ul className = "navbar-nav">
                         <li className = "nav-item">
-                            <Link className = "nav-link text-body nav-head" to = "/home" >Home</Link>
+                            <Link className = "nav-link text-body nav-head" to = "/home">Home</Link>
                         </li>
                         <li className = "nav-item">
                         <Link className = "nav-link text-body nav-head" to = "/freecounselling" >Free Counselling</Link>
