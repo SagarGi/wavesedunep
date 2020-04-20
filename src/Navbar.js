@@ -14,7 +14,7 @@ class Navbar extends Component
       
                 <div className = "container">
 
-                <Link className = "navbar-brand" to = "/"><img src = {require('./images/waveslogo.png')} alt = "logo" className = "logo" /></Link>
+                <Link className = "navbar-brand" to = "/wavesedunep"><img src = {require('./images/waveslogo.png')} alt = "logo" className = "logo" /></Link>
                     {/* button when responsive */}
                 <button className = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#collapsenavbar">
                     <span className =  "navbar-toggler-icon"></span>

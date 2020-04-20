@@ -15,7 +15,25 @@ class ContactPage extends Component
                      <h1>Pokhara Office</h1>
                      <hr className = "mainhr"></hr>
                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112494.53134629565!2d83.91964572520206!3d28.22389356152866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995944f2e2d0583%3A0xf8644c579056acf1!2sBP%20Rd%2C%20Pokhara%2033700!5e0!3m2!1sen!2snp!4v1587287261551!5m2!1sen!2snp" className = "direction"  frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                     <p>Mahendra Pool Office <br></br> Pokhara 33700, Nepal<br></br>Tel: 061-533352 <br></br>Phohe: 9829107652, 9829107632</p>
+                     <div className = "container">
+
+                         <div className = 'row'>
+                         <div className = "col-lg-6">
+                         <p className = "mahendraoffice">Mahendra Pool Office <br></br> Pokhara 33700, Nepal<br></br>Tel: 061-533352 <br></br>Phohe: 9829107652, 9829107632</p>
+                         </div>
+
+                         <div className = "col-lg-6">
+                             <h5>BUSINESS HOURS</h5>
+                         <p className = "businesshours"> Mon:	9:30 AM – 6:00 PM<br></br>Tue:	9:30 AM – 6:00 PM <br></br>Wed:	9:30 AM – 6:00 PM<br></br>
+                         Thu:	9:30 AM – 6:00 PM <br></br>
+                         Fri:	9:30 AM – 3:30 PM <br></br>
+                         Sat:	Closed<br></br>
+                         Sun:	9:30 AM – 6:00 PM
+                         </p>
+                         </div>
+                         </div>
+                     </div>
+                     
                 </div>
                 <Secondfooter />
                 <Footer />
