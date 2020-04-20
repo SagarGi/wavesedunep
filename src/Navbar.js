@@ -10,7 +10,7 @@ class Navbar extends Component
 
         return(
             <div>
-                <nav className = "navbar navbar-expand-lg navbar-light">
+                <nav className = "navbar navbar-expand-lg navbar-light bg-white fixed-top">
       
                 <div className = "container">
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Secondfooter from'./Secondfooter.js'
 import Footer from'./footer.js'
+import './ServicesPage.css'
 
 class AboutPage extends Component
 {
