@@ -91,3 +91,8 @@ input[type=text], select {
     text-align: center;
     color: white;
   }
+
+  .error
+  {
+    color: red;
+  }
