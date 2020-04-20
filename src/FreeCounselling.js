@@ -91,9 +91,9 @@ class FreeCounselling extends Component
 
            const {email, subject, comment} = this.state
            axios.post('/sendEmail/form',{
-            toEmail : email,
-            toSubject : subject,
-            toMail : comment
+            fromEmail : email,
+            fromSubject : subject,
+            fromMail : comment
           })
 
        }
