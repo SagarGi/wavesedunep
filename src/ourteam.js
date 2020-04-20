@@ -8,7 +8,7 @@ const Ourteam = () =>
            <div className = "container">
 
            <p className = "heading-para">OUR TEAM</p>
-            <hr></hr>
+            <hr className = "horizontal"></hr>
 
                <div className = "row mt-5">
 

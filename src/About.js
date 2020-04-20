@@ -10,7 +10,7 @@ class About extends Component
                   <div className = "container mt-4">
       
                     <p className = "heading-para">WAVES EDUCATION</p>
-                    <hr></hr>
+                    <hr className = "horizontal" ></hr>
       
                     <p className = "about-para">Kangaroo Education Foundation (KEF) is an innovative and specialist educational<br></br>
                     consultancy service provider. In service of students since 2007, we specialize in<br></br>

@@ -10,7 +10,7 @@ class About extends Component
                   <div className = "container text-center">
                  
                   <p className = "heading-para">OUR SERVICES</p>
-                  <hr></hr>
+                  <hr className = "horizontal"></hr>
       
                   <div className = "container mt-5">
                     <div className = "row">
