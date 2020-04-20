@@ -34,8 +34,8 @@ class Secondfooter extends Component
 
           <p style = {{fontSize: "20px"}}>Follow us:</p>
           <hr style = {{border: "0.5px solid white"}}></hr>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/wenpokhara" target = "_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/waveseducationnepal9/?hl=en" target = "_blank" class="fa fa-instagram"></a>
           </div>
         </div>
       </div>
