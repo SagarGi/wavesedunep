@@ -2,6 +2,7 @@ import React, { Component, Suspense } from 'react'
 import './FreeCounselling.css'
 import Secondfooter from'./Secondfooter.js'
 import Footer from'./footer.js'
+import axios from 'axios'
 
 class FreeCounselling extends Component
 {
@@ -84,6 +85,18 @@ class FreeCounselling extends Component
        {
            this.setState({mobileNumberError: "Please Enter Correct Number!!"})
        }
+       else{
+           document.getElementById('myForm').reset()
+           alert("Submitted!!! We will contact you soon...")
+
+           const {email, subject, comment} = this.state
+           axios.post('/sendEmail/form',{
+            toEmail : email,
+            toSubject : subject,
+            toMail : comment
+          })
+
+       }
     }
 
     hideNameError()
@@ -121,7 +134,7 @@ class FreeCounselling extends Component
                  </div>
                 <div className = 'container formdiv'>
               
-                <form onSubmit = {(event) => this.handleSubmit}>
+                <form id = "myForm" onSubmit = {(event) => this.handleSubmit}>
                     <label for="fname">Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name.." onChange = {(event) => this.setState({name: event.target.value})} onClick = {this.hideNameError.bind(this)}/>
                     <p className = "error">{this.state.nameError}</p>
