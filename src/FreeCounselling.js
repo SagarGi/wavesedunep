@@ -19,7 +19,8 @@ class FreeCounselling extends Component
             emailError : "",
             mobileNumberError : "",
             subjectError : "",
-            commentError : ""
+            commentError : "",
+          
 
         }
 
@@ -32,11 +33,14 @@ class FreeCounselling extends Component
 
     handleSubmit(event)
     {
+        
+        
         event.preventDefault()
         let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         // validation
         if(this.state.name === "" && this.state.email === "" && this.state.mobileNumber === "" && this.state.subject === "" && this.state.comment === "")
         {
+            
             this.setState({
                 nameError : "Please enter your name!!" ,
                 emailError : "Please enter your mail!!",
@@ -86,15 +90,34 @@ class FreeCounselling extends Component
            this.setState({mobileNumberError: "Please Enter Correct Number!!"})
        }
        else{
-           document.getElementById('myForm').reset()
-           alert("Submitted!!! We will contact you soon...")
-
+           
            const {email, subject, comment} = this.state
            axios.post('/sendEmail/form',{
             fromEmail : email,
             fromSubject : subject,
             fromMail : comment
           })
+
+          this.setState({
+
+            name : "",
+            email : "",
+            mobileNumber : "",
+            subject : "",
+            comment : "",
+            nameError : "",
+            emailError : "",
+            mobileNumberError : "",
+            subjectError : "",
+            commentError : "",
+
+         })
+
+         document.getElementById('myForm').reset()
+
+         alert('Your mail is sent!!!')
+
+         
 
        }
     }
@@ -126,7 +149,7 @@ class FreeCounselling extends Component
     {
         return(
             <div>
-                 <img className = "contactusimage" src = { require('./images/freecounselling.jpg')}></img>
+                 <img className = "counsellusimage" src = { require('./images/freecounselling.jpg')}></img>
 
 
                  <div className = "container heading text-center">
@@ -150,7 +173,26 @@ class FreeCounselling extends Component
                     <label for="subject">Comment</label><br></br>
                     <textarea id="comment" name="comment" onChange = {(event) => this.setState({comment: event.target.value})} onClick = {this.hideCommentError.bind(this)}></textarea>
                     <p className = "error">{this.state.commentError}</p>
-                    <input type="submit" value="Submit" onClick = {e => this.handleSubmit(e)}/>
+                    <input type="submit" value="Submit"
+                    data-toggle= {this.state.dataToogle}
+                    data-target= {"#"+this.state.dataTarget}
+                    onClick = {e => this.handleSubmit(e)}/>
+                    <div class="modal  text-center" id="myModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div className="modal-header">
+                                <h3>Thank You!!</h3>
+                            </div>
+                            <div class="modal-body">
+                            <p>Your mail has been sent!! We will contact you soon....</p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
                 </form>
 
                 </div>

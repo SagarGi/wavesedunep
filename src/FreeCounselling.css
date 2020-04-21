@@ -1,8 +1,8 @@
-.contactusimage
+.counsellusimage
 {
     width: 100%;
     height: 58vh;
-    margin-top: 107px;
+    margin-top: 97px;
 }
 
 label:after
@@ -96,3 +96,12 @@ input[type=text], select {
   {
     color: red;
   }
+
+  .modal-header
+  {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: red;
+  }
+  
