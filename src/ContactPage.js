@@ -14,7 +14,14 @@ class ContactPage extends Component
                    
                      <h1>Pokhara Office</h1>
                      <hr className = "mainhr"></hr>
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112494.53134629565!2d83.91964572520206!3d28.22389356152866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995944f2e2d0583%3A0xf8644c579056acf1!2sBP%20Rd%2C%20Pokhara%2033700!5e0!3m2!1sen!2snp!4v1587287261551!5m2!1sen!2snp" className = "direction"  frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                     <div class="mapouter"><div class="gmap_canvas">
+                    <iframe id="gmap_canvas" src="https://www.google.com.qa/maps/d/u/0/embed?mid=1vI2zn46tR6shajRxDytHMnC4_cD2LV8V" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <a href="https://techwithlove.com/"></a>
+                    </div>
+
+                    </div>
+
                      <div className = "container">
 
                          <div className = 'row'>
@@ -43,3 +50,7 @@ class ContactPage extends Component
 }
 
 export default ContactPage
+
+
+
+

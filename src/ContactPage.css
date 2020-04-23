@@ -35,6 +35,20 @@ h5{
     margin-bottom: 50px;
 }
 
+.mapouter
+{
+    position: relative;
+    text-align: center;
+}
+
+#gmap_canvas
+{
+    overflow: hidden;
+    background: none;
+    height: 600px;
+    width: 80%;
+}
+
 @media only screen and (max-width: 1024px) {
 
     .contactusimage
