@@ -58,6 +58,26 @@ h5{
 
   }
 
+@media only screen and (max-width: 768px) {
+
+    .contactusimage
+    {
+        height: 35vh;
+    }
+
+    .mainhr{
+        width: 100%;
+    }
+
+    #gmap_canvas
+{
+    
+    width: 100%;
+}
+
+  
+  }
+
   @media only screen and (max-width: 412px) {
 
     .contactusimage
