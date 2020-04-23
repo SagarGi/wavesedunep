@@ -104,4 +104,33 @@ input[type=text], select {
     align-items: center;
     color: red;
   }
+
+  @media only screen and (max-width: 412px) {
+
+    .counsellusimage
+    {
+        height: 30vh;
+    }
+
+    .heading
+      {
+        width: 98%;
+
+
+      }
+    .formdiv{
+      width: 98%;
+    }
+
+    .freecounsell
+    {
+      font-size: 30px;
+      padding-top: 37px;
+    }
+
+
+
+
+  }
+
   
