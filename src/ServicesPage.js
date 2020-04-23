@@ -112,12 +112,12 @@ class ServicesPage extends Component
                                      <div class="card">
                                         <div class="card-header bg-primary text-white">Listening</div>
                                         <div class="card-body">
-                                        4 sections, 40 questions, 30 minutes <br></br><br></br>
+                                        <p>4 sections, 40 questions, 30 minutes <br></br><br></br>
                                         Section 1: a conversation between two people<br></br>
                                         Section 2: a monologue set in an everyday social context<br></br>
                                         Section 3: a conversation between up to four people set in an educational or training context<br></br>
                                         Section 3: a conversation between up to four people set in an educational or training context<br></br>
-                                        Each section is heard once only
+                                        Each section is heard once only</p>
                                         </div>  
                                     </div>
 
@@ -128,10 +128,11 @@ class ServicesPage extends Component
                                      <div class="card">
                                         <div class="card-header bg-primary text-white">Speaking</div>
                                         <div class="card-body">
-                                        An interview, 15 minutes<br></br><br></br>
+                                        <p>An interview, 15 minutes<br></br><br></br>
                                         Part 1 Introduction and interview<br></br>
                                         Part 2 Individual long turn (you have to talk about a topic)<br></br>
-                                        Part 3 Two-way discussion (The examiner asks further questions which are connected to the topic of Part 2.)<br></br>
+                                        Part 3 Two-way discussion (The examiner asks further questions which are connected to the topic of Part 2.)</p>
+                                        <br></br>
                                         </div>  
                                     </div>
 
@@ -142,10 +143,10 @@ class ServicesPage extends Component
                                         <div class="card-header bg-primary text-white">Reading</div>
                                         <div class="card-body">
 
-                                        3 sections, 40 questions, 60 minutes <br></br><br></br>
+                                        <p>3 sections, 40 questions, 60 minutes <br></br><br></br>
                                         Section 1: two or three short factual texts<br></br>
                                         Section 2: contains two short factual texts focusing on work-related issues<br></br>
-                                        Sectin 3: one longer, more complex text
+                                        Sectin 3: one longer, more complex text</p>
                                         </div>  
                                     </div>
 
@@ -156,8 +157,8 @@ class ServicesPage extends Component
                                      <div class="card">
                                         <div class="card-header bg-primary text-white">Writing</div>
                                         <div class="card-body">
-                                        Part 1: write a letter requesting information or explaining a situation. <br></br>
-                                        Part 2: write an essay in response to a point of view, argument or problem <br></br>
+                                        <p>Part 1: write a letter requesting information or explaining a situation. <br></br>
+                                        Part 2: write an essay in response to a point of view, argument or problem.</p> <br></br>
                                     </div>  
                                     </div>
 
@@ -227,8 +228,8 @@ class ServicesPage extends Component
                                         <div class="card-body">
 
                                         <h4>Reading</h4>
-                                        One is able to read materials written clearly on a variety of topics, such as articles and commentaries in newspapers and magazines as well as simple critiques, and comprehend their contents.
-                                        ・One is also able to read written materials on general topics and follow their narratives as well as understand the intent of the writers.<br></br> <br></br>
+                                        <p>One is able to read materials written clearly on a variety of topics, such as articles and commentaries in newspapers and magazines as well as simple critiques, and comprehend their contents.
+                                        ・One is also able to read written materials on general topics and follow their narratives as well as understand the intent of the writers.</p><br></br> <br></br>
                                         <h4>Writing</h4>
                                         <p>One is able to comprehend orally presented materials such as coherent conversations and news reports, spoken at nearly natural speed in everyday situations as well as in a variety of settings,
                                          and is able to follow their ideas and comprehend their contents. One is also able to understand the relationships among the people 
@@ -245,9 +246,9 @@ class ServicesPage extends Component
                                         <div class="card-header bg-primary text-white">N3</div>
                                         <div class="card-body">
                                         <h4>Reading</h4>
-                                        One is able to read and understand written materials with specific contents concerning everyday topics.
+                                        <p>One is able to read and understand written materials with specific contents concerning everyday topics.
                                         ・One is also able to grasp summary information such as newspaper headlines.
-                                        ・In addition, one is also able to read slightly difficult writings encountered in everyday situations and understand the main points of the content if some alternative phrases are available to aid one’s understanding.<br></br> <br></br>
+                                        ・In addition, one is also able to read slightly difficult writings encountered in everyday situations and understand the main points of the content if some alternative phrases are available to aid one’s understanding.</p><br></br> <br></br>
                                         <h4>Writing</h4>
                                         <p>One is able to listen and comprehend coherent conversations in everyday situations, spoken at near-natural speed, and is generally able to follow their contents as well as grasp the relationships among the people involved.</p>
                                     </div>  
@@ -261,7 +262,7 @@ class ServicesPage extends Component
                                         <div class="card-header bg-primary text-white">N4</div>
                                         <div class="card-body">
                                         <h4>Reading</h4>
-                                        One is able to read and understand passages on familiar daily topics written in basic vocabulary and kanji.<br></br> <br></br>
+                                        <p>One is able to read and understand passages on familiar daily topics written in basic vocabulary and kanji.</p><br></br> <br></br>
                                         <h4>Writing</h4>
                                         <p>One is able to listen and comprehend conversations encountered in daily life and generally follow their contents, provided that they are spoken slowly.</p>
                                     </div>  
@@ -275,7 +276,7 @@ class ServicesPage extends Component
                                         <div class="card-header bg-primary text-white">N5</div>
                                         <div class="card-body">
                                         <h4>Reading</h4>
-                                        One is able to read and understand typical expressions and sentences written in hiragana, katakana, and basic kanji.<br></br> <br></br>
+                                        <p>One is able to read and understand typical expressions and sentences written in hiragana, katakana, and basic kanji.</p><br></br> <br></br>
                                         <h4>Writing</h4>
                                         <p>One is able to listen and comprehend conversations about topics regularly encountered in daily life and classroom situations, and is able to pick up necessary information from short conversations spoken slowly.</p>
                                     </div>  
