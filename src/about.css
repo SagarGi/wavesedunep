@@ -5,6 +5,7 @@
    
     text-align: center;
     margin-top: 60px;
+    font-weight: bold;
 }
 
 h2{
@@ -18,10 +19,9 @@ h2{
 .about-para
 {
     text-align: center;
-   
     font-size: 18px;
     font-weight: 100;
-    color: grey;
+    color:rgb(100, 100, 100);
     
 }
 

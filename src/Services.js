@@ -40,12 +40,12 @@ class About extends Component
       
                   <div className = "container image-container">
       
-                    <a href = "">
+                    <a href = "/freecounselling">
       
                       <div className = "hover-image">
                       <img className = "free-counselling" src = { require('./images/counselling.jpg')}></img>
                       </div>
-                    <div class="centered text-white"><p className = "register">Register For Free Counselling!!</p></div>
+                    <div class="centered text-white"><p className = "register text-white">Register For Free Counselling!!</p></div>
       
                     </a>
       

@@ -12,11 +12,11 @@ class About extends Component
                     <p className = "heading-para">WAVES EDUCATION</p>
                     <hr className = "horizontal" ></hr>
       
-                    <p className = "about-para">Kangaroo Education Foundation (KEF) is an innovative and specialist educational<br></br>
-                    consultancy service provider. In service of students since 2007, we specialize in<br></br>
+                    <p className = "about-para">Waves Education Nepal (WEN) is an innovative and specialist educational<br></br>
+                    consultancy service provider. In service of students since 2012, we specialize in<br></br>
                     educational counseling, recruitment and enrollment at overseas universities and <br></br>
-                    colleges for more than 12 years. Adhering to the company’s policy of decentralization, <br></br>
-                    to a total number of 8 offices in Australia and Nepal.
+                    colleges for more than 5 years. Adhering to the company’s policy of decentralization, <br></br>
+                    it is located at BG road Mahendra Pool, Pokhara, Nepal.
                     </p>
       
       

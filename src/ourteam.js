@@ -16,24 +16,24 @@ const Ourteam = () =>
 
                        <img className = "ourteam-photo" src = {require('./images/bijay.jpg')} style={{width: "220px"}}></img>
                        <h3>Bijay Nepali</h3>
-                       <h6>Director</h6>
-                       <p>Waves Education Nepal</p>
+                       <h6 className = "text-body">Director</h6>
+                       <p className = "text-body">Waves Education Nepal</p>
                    </div>
 
                     <div className = "col-xl-4 col-lg-4 col-md-6 text-center">
 
                        <img className = "ourteam-photo"  src = {require('./images/manzu.jpg')} style={{width: "220px"}}></img>
                        <h3>Manzu Nepali</h3>
-                       <h6>Founder</h6>
-                       <p>Waves Education Nepal</p>
+                       <h6 className = "text-body">Founder</h6>
+                       <p className = "text-body">Waves Education Nepal</p>
                    </div>
 
                     <div className = "col-xl-4 col-lg-4 col-md-12 text-center">
 
                        <img className = "ourteam-photo"  src = {require('./images/mansa.jpg')} style={{width: "220px"}}></img>
                        <h3>Mansa</h3>
-                       <h6>Receptionist</h6>
-                       <p>Waves Education Nepal</p>
+                       <h6 className = "text-body">Receptionist</h6>
+                       <p className = "text-body">Waves Education Nepal</p>
                    </div>
 
                </div>
