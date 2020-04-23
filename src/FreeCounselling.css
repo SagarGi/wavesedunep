@@ -82,8 +82,7 @@ input[type=text], select {
   .freecounsell
   {
    color: white;
-   padding-top: 25px;
-   text-align: center;
+   padding-top: 30px;
   }
 
   .paracounsell
@@ -103,6 +102,55 @@ input[type=text], select {
     justify-content: center;
     align-items: center;
     color: red;
+  }
+  @media only screen and (max-width: 1024px) {
+
+    .counsellusimage
+    {
+        height: 30vh;
+    }
+
+    .heading
+      {
+        width: 98%;
+
+
+      }
+    .formdiv{
+      width: 98%;
+    }
+
+    .freecounsell
+    {
+      font-size: 40px;
+      padding-top: 90px;
+    }
+  }
+
+ 
+
+  @media only screen and (max-width: 768px) {
+
+    .counsellusimage
+    {
+        height: 30vh;
+    }
+
+    .heading
+      {
+        width: 98%;
+
+
+      }
+    .formdiv{
+      width: 98%;
+    }
+
+    .freecounsell
+    {
+      
+      padding-top: 70px;
+    }
   }
 
   @media only screen and (max-width: 412px) {
@@ -125,12 +173,10 @@ input[type=text], select {
     .freecounsell
     {
       font-size: 30px;
-      padding-top: 37px;
+      padding-top: 35px;
     }
-
-
-
-
   }
+
+
 
   

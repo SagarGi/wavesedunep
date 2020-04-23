@@ -53,3 +53,47 @@ h6{
 p{
     color: rgb(100, 100, 100);
 }
+
+
+
+@media only screen and (max-width: 1024px) {
+    .ielts
+    {
+        height: 23vh;
+    }
+
+    .japanese
+        {
+            height: 20vh;
+        
+        }
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    .servicesheading
+        {
+            width: 55%;
+           
+        }
+
+   
+  }
+
+  @media only screen and (max-width: 412px) {
+
+    .servicesheading
+    {
+        width: 100%;
+       
+    }
+    
+    h1
+    {
+        font-size: x-large;
+    }
+
+    
+  }
