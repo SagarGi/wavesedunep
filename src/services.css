@@ -6,9 +6,33 @@
    
 }
 
+.button
+{
+  background-color: red;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 250px;
+  margin-top: 30px;
 
-.col{
-    background-color: red;
+}
+
+.col1
+{
+  background-color:purple;
+}
+
+.col2
+{
+  background-color:deeppink;
+}
+.col3
+{
+  background-color:dodgerblue;
 }
 
 .free-counselling
@@ -24,7 +48,7 @@
 }
 
 .image-container{
-    margin-top: 90px;
+    margin-top: 45px;
     position: relative;
     text-align: center;
     color: white;

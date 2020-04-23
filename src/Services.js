@@ -6,35 +6,31 @@ class About extends Component
     {
         return(
             <div>
-             <a name = "ourservices"></a>
                   <div className = "container text-center">
-                 
                   <p className = "heading-para">OUR SERVICES</p>
                   <hr className = "horizontal"></hr>
       
-                  <div className = "container mt-5">
+                  <div className = "container mt-5 ">
                     <div className = "row">
-                      <div className = "col-lg-4 text-center bg-dark"> 
+                      <div className = "col-lg-4 text-center col1"> 
                           <i class='services fas fa-user-graduate'></i>
                           <h2>Study Abroad</h2>
                       </div>
       
-                      <div className = "col-lg-4 text-center bg-danger"> 
+                      <div className = "col-lg-4 text-center col2"> 
                           <a><i class='services fas fa-edit'></i></a>
                           <h2>IELTS Preparation</h2>
                       </div>
       
-                      <div className = "col-lg-4 text-center bg-success"> 
+                      <div className = "col-lg-4 text-center col3"> 
                           <i class='services fas fa-chalkboard-teacher'></i>
                           <h2>Japanese Language</h2>
                       </div>
       
                       </div>
                   </div>
-      
-                   
-      
-                  </div>
+
+                  <a href="/services" style = {{textDecoration: "none"}} class="button"> More </a>
       
                   {/* free counselling */}
       
@@ -58,6 +54,7 @@ class About extends Component
                     </div>
                  
                   </div>
+            </div>
             </div>
         )
     }
