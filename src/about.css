@@ -32,3 +32,23 @@ h2{
     margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 412px) {
+
+    .about-para
+    {
+        font-size: 15px;
+    }
+
+    .heading-para
+    {
+        font-size: 30px;
+    }
+
+    .horizontal
+    {
+        width: 100%;
+    }
+
+
+  }
+

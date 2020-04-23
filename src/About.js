@@ -18,8 +18,6 @@ class About extends Component
                     colleges for more than 5 years. Adhering to the company’s policy of decentralization, <br></br>
                     it is located at BG road Mahendra Pool, Pokhara, Nepal.
                     </p>
-      
-      
                   </div>
             </div>
         )
