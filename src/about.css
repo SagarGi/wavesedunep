@@ -1,39 +1,32 @@
-.heading-para
-{
-    color: red;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 60px;
-    font-weight: bold;
+.heading-para {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bold;
 }
 
-h2{
-
-    margin: 35px;
-    color: wheat;
-   
-
+h2 {
+  margin: 35px;
+  color: wheat;
 }
 
-.about-para
-{
-    text-align: center;
-    font-size: 18px;
-    font-weight: 100;
-    color:rgb(100, 100, 100);
-    
+.about-para {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
 }
 
-.horizontal{
-    width: 80%;
-    border: 2px solid yellow;
-    margin-top: 45px;
-    margin-bottom: 40px;
+.horizontal {
+  width: 80%;
+  border: 2px solid yellow;
+  margin-top: 45px;
+  margin-bottom: 40px;
 }
 
-.button
-{
-  background-color: red;
+.button {
+  background-color: green;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -42,35 +35,26 @@ h2{
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  width: 250px;
+  width: 150px;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
-.button:hover
-{
-    background-color: blue;
-    color: white;
+.button:hover {
+  background-color: blue;
+  color: white;
 }
 
 @media only screen and (max-width: 412px) {
-
-    .about-para
-    {
-        font-size: 15px;
-    }
-
-    .heading-para
-    {
-        font-size: 30px;
-    }
-
-    .horizontal
-    {
-        width: 100%;
-    }
-
-
+  .about-para {
+    font-size: 15px;
   }
 
+  .heading-para {
+    font-size: 30px;
+  }
+
+  .horizontal {
+    width: 100%;
+  }
+}
